@@ -1,51 +1,118 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     color: #333;
-}
- 
-/* Header section */
-header {
-    background-color: #6200ea;
-    color: #fff;
-    text-align: center;
-    padding: 2rem;
-}
- 
-h1 {
-    margin: 0;
-}
- 
-p {
-    margin: 0.5rem 0;
     line-height: 1.6;
+    padding: 20px;
 }
- 
-/* Section styles */
-section {
-    margin: 2rem auto;
-    padding: 1rem;
-    max-width: 600px;
+
+/* Header Section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Me Section */
+#about-me {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#about-me p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    margin: 40px 0;
+}
+
+#projects h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
- 
-h2 {
-    color: #6200ea;
-    border-bottom: 2px solid #6200ea;
-    padding-bottom: 0.5rem;
+
+#projects h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
- 
-/* Link styles */
-a {
-    color: #6200ea;
+
+#projects p {
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #4CAF50;
     text-decoration: none;
 }
- 
-a:hover {
+
+#contact a:hover {
     text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #888;
 }
